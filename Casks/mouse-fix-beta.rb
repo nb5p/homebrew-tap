@@ -1,5 +1,6 @@
 cask "mouse-fix-beta" do
   version "3.0.0-Beta-6"
+  sha256 "dd7b6efdf5f2fa5a18aa6533ec540a4c10f235d8cb7a99c56ea4341e9bc0afca"
 
   url "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/#{version}/MacMouseFixApp.zip"
   name "Mouse Fix Beta"
