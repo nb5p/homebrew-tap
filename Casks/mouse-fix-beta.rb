@@ -4,7 +4,7 @@ cask "mouse-fix-beta" do
 
   url "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/#{version}/MacMouseFixApp.zip"
   name "Mouse Fix Beta"
-  desc "Mac Mouse Fix - A simple way to make your mouse better."
+  desc "Mac Mouse Fix - A simple way to make your mouse better"
   homepage "https://mousefix.org/"
 
   livecheck do
