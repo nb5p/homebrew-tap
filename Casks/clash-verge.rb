@@ -11,8 +11,8 @@ cask "clash-verge" do
   homepage "https://github.com/zzzgydi/clash-verge/"
 
   livecheck do
-    url: url
-    strategy: github_latest
+    url :url
+    strategy :github_latest
   end
 
   auto_updates true
