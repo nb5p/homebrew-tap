@@ -1,16 +1,16 @@
 cask "mouse-fix-beta" do
-  version "3.0.0-Beta-6"
-  sha256 "dd7b6efdf5f2fa5a18aa6533ec540a4c10f235d8cb7a99c56ea4341e9bc0afca"
+  version "3.0.0-Beta-7"
+  sha256 "17c798958c541cafb219891a05433374b9647899649b88cfaaa91fd627a43ed9"
 
   url "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/#{version}/MacMouseFixApp.zip"
   name "Mouse Fix Beta"
-  desc "Mac Mouse Fix - A simple way to make your mouse better"
-  homepage "https://mousefix.org/"
+  desc "Make Your $10 Mouse Better Than an Apple Trackpad!"
+  homepage "https://macmousefix.com/"
 
   livecheck do
     url "https://github.com/noah-nuebling/mac-mouse-fix/releases"
     strategy :page_match
-    regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+(?:-[A-Za-z]+\-\d+)?)["' >]}i)
+    regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+(?:-[A-Za-z]+-\d+)?)["' >]}i)
   end
 
   auto_updates true
