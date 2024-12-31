@@ -17,7 +17,7 @@ class FigletFonts < Formula
         #{HOMEBREW_PREFIX}/share/figlet/fonts-extra
 
       To use these fonts with FIGlet:
-        figlet -d #{HOMEBREW_PREFIX}/share/figlet/fonts-extra -f "ANSI Shadow" Hello
+        figlet -d #{HOMEBREW_PREFIX}/share/figlet/fonts-extra -f "ANSI Shadow" FIGLET-FONTS
 
       To globally set these fonts as the default:
         export FIGLETFONTDIR=#{HOMEBREW_PREFIX}/share/figlet/fonts-extra
