@@ -15,6 +15,8 @@ cask "clash-verge" do
     strategy :github_latest
   end
 
+  deprecate! date: "2023-11-03", because: "repository archived, use clash-verge-rev instead"
+
   auto_updates true
 
   app "Clash Verge.app"

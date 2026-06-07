@@ -1,9 +1,9 @@
-cask "mouse-fix-beta" do
-  version "3.0.0"
-  sha256 "e79c8feb18685e87bcb63bd4207ae593e93f45ff1fd319825222c6c17bb643df"
+cask "mac-mouse-fix-beta" do
+  version "3.1.0-Beta-1"
+  sha256 "201851c2f25b8217a2fcc24b2e0217ae0fb4266f7b759874db1ecb32718d03e9"
 
   url "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/#{version}/MacMouseFixApp.zip"
-  name "Mouse Fix Beta"
+  name "Mac Mouse Fix Beta"
   desc "Make Your $10 Mouse Better Than an Apple Trackpad!"
   homepage "https://github.com/noah-nuebling/mac-mouse-fix/"
 

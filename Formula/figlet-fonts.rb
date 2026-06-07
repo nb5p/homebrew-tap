@@ -1,9 +1,9 @@
 class FigletFonts < Formula
   desc "Additional fonts for FIGlet"
   homepage "https://github.com/xero/figlet-fonts"
-  url "https://github.com/xero/figlet-fonts/archive/a6d2db1a3ee88bec3518214e851825fc4495ac84.zip"
-  version "a6d2db1"
-  sha256 "2c89e9092d646731bce967b0d2d163e23e40e0612e02e95088e52feda0c78c4b"
+  url "https://github.com/xero/figlet-fonts/archive/417429ef36ab039cbf192a4424c60aa23fc32de8.zip"
+  version "417429e"
+  sha256 "3e77279ac89a9512fe600a6d071a3ca249a91b72032ecbfcf0b568fc39535a3d"
 
   def install
     # Install to a separate directory
